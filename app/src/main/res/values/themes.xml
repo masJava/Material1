@@ -13,4 +13,43 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Material1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Material1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Material1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Material.Blue" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/bluePrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/bluePrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blueSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/blueSecondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/bluePrimaryDarkColor</item>
+        <!-- Customize your theme here. -->
+
+
+    </style>
+
+    <style name="Theme.Material.Red" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/redPrimaryColor</item>
+        <item name="colorPrimaryVariant">@color/redPrimaryDarkColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/redSecondaryColor</item>
+        <item name="colorSecondaryVariant">@color/redSecondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/redPrimaryDarkColor</item>
+        <!-- Customize your theme here. -->
+    </style>
 </resources>
